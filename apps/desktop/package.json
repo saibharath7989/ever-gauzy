@@ -30,7 +30,8 @@
 		"terser-webpack-plugin": "^5.2.5"
 	},
 	"dependencies": {
-		"@angular/cdk": "13.2.2",
+		"@angular/cdk": "14.0.6",
+		"@angular/material": "14.1.0",
 		"@gauzy/desktop-ui-lib": "^0.1.0",
 		"@grpc/grpc-js": "^1.6.7",
 		"@nebular/auth": "^9.0.3",
@@ -67,7 +68,6 @@
 		"twing": "^5.0.2",
 		"typeorm": "^0.2.45",
 		"typeorm-aurora-data-api-driver": "^2.3.3",
-		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git",
-		"@angular/material": "13.2.2"
+		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git"
 	}
 }

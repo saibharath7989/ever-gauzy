@@ -29,6 +29,7 @@
 		"terser-webpack-plugin": "^5.2.5"
 	},
 	"dependencies": {
+		"@angular/material": "14.1.0",
 		"@electron/remote": "^2.0.1",
 		"@gauzy/contracts": "^0.1.0",
 		"@gauzy/desktop-ui-lib": "^0.1.0",
@@ -43,7 +44,6 @@
 		"moment": "^2.29.4",
 		"rxjs": "^7.4.0",
 		"sound-play": "1.1.0",
-		"underscore": "^1.13.3",
-		"@angular/material": "13.2.2"
+		"underscore": "^1.13.3"
 	}
 }
