@@ -5,7 +5,7 @@ pipeline {
 
     environment {
         DOCKER_BUILDKIT = 1 // Experimental faster build system
-        REPO_NAME = "ever-gauzy"
+        REPO_NAME = "agathsyaproject1"
         IMAGE_API = "gauzy-api"
         IMAGE_WEBAPP = "gauzy-webapp"
         GITHUB_DOCKER_USERNAME = credentials('github-docker-username')
