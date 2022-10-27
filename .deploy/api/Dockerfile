@@ -58,8 +58,8 @@ ARG UNLEASH_METRICS_INTERVAL
 
 FROM node:16-alpine3.14 AS dependencies
 
-LABEL maintainer="ever@ever.co"
-LABEL org.opencontainers.image.source https://github.com/ever-co/ever-gauzy
+LABEL maintainer="Saibharath"
+LABEL org.opencontainers.image.source https://github.com/saibharath7989/ever-gauzy
 
 ENV CI=true
 
