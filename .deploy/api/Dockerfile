@@ -176,7 +176,7 @@ COPY --chown=node:node --from=prodDependencies /srv/gauzy/node_modules/ ./node_m
 COPY --chown=node:node --from=build /srv/gauzy/packages/ ./packages/
 
 # Copy static assets files which used for example in the seeds (e.g. images for features, reports, screenshots)
-COPY --chown=node:node apps/api/src/assets apps/api/src/assets
+COPY --chown=node:node apps/api/src/assets
 
 # Copy folder to which we later move static assets (e.g. images for features, reports, screenshots)
 COPY --chown=node:node apps/api/public apps/api/public
