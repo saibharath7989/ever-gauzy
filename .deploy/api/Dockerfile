@@ -58,8 +58,8 @@ ARG UNLEASH_METRICS_INTERVAL
 
 FROM node:16-alpine3.14 AS dependencies
 
-LABEL maintainer="Saibharath"
-LABEL org.opencontainers.image.source https://github.com/saibharath7989/ever-gauzy
+LABEL maintainer="ever@ever.co"
+LABEL org.opencontainers.image.source https://github.com/ever-co/ever-gauzy
 
 ENV CI=true
 
@@ -176,7 +176,7 @@ COPY --chown=node:node --from=prodDependencies /srv/gauzy/node_modules/ ./node_m
 COPY --chown=node:node --from=build /srv/gauzy/packages/ ./packages/
 
 # Copy static assets files which used for example in the seeds (e.g. images for features, reports, screenshots)
-COPY --chown=node:node apps/api/src/assets
+COPY --chown=node:node apps/api/src/assets apps/api/src/assets
 
 # Copy folder to which we later move static assets (e.g. images for features, reports, screenshots)
 COPY --chown=node:node apps/api/public apps/api/public
